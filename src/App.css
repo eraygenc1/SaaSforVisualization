@@ -1,0 +1,45 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* ortala */
+  align-items: center;      /* ortala */
+  
+}
+.login-form-back{
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  min-width: 500px;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.445);
+  padding: 10px 20px;
+  border: 1px solid  #000;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #bdbdbd;
+  transition: all 500ms;
+}
+.login-form-back:hover{
+
+  box-shadow: 0 0 30px #bdbdbd;
+}
+
+.login-form-back h1 ,h2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.login-form-back p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
